@@ -94,9 +94,9 @@ font-family: 'Merriweather', serif; */
     background-position: center;
 }
 
-.vactor{
+.vactor {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     gap: 40px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -104,9 +104,9 @@ font-family: 'Merriweather', serif; */
 }
 
 .party-text {
-    padding: 126px 0 142px;
     font-family: 'Inter', sans-serif;
     width: 700px;
+    padding: 126px 0 142px;
 }
 
 .party-text h1 {
@@ -127,7 +127,7 @@ font-family: 'Merriweather', serif; */
     margin-bottom: 48px;
 }
 
-.party-button{
+.party-button {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -139,3 +139,43 @@ font-family: 'Merriweather', serif; */
 }
 
 /* date-time */
+
+.date-time-text{
+    text-align: center;
+    padding: 100px 0px 110px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.date-time-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+}
+
+
+.date-time-text h1 {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+}
+
+.date-time-text span {
+    color: #F00;
+}
+
+.date-time-text button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    margin-top: 48px;
+}
+
+/* best-offer */
