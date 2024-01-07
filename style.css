@@ -20,6 +20,10 @@ body {
     margin: 0 auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 .per-sec {
     margin-bottom: 120px;
 }
@@ -231,14 +235,65 @@ body {
     margin-bottom: 16px;
 }
 
-.h-n-y{
+.h-n-y {
     margin-top: 43px;
 }
 
-.happy-people img{
+.happy-people img {
     border: 15px solid #F00;
     border-radius: 50%;
     padding: 40px;
 }
 
+/* holiday */
 
+.sale {
+    text-align: center;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.sale h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.sale h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin: 16px 0 28px;
+}
+
+.sale h1 span{
+    color: #F00;
+}
+
+.sale p{
+    font-weight: 500;
+    margin-bottom: 65px;
+}
+
+.discount{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.shop{
+    position: relative;
+    margin-top: 5px;
+}
+
+.dic50 img{
+    position:absolute;
+    top: 85px;
+    right: 65%;
+}
+
+/* product */
