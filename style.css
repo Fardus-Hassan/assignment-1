@@ -10,6 +10,10 @@ font-family: 'Merriweather', serif; */
     padding: 0;
 }
 
+body{
+    background-color: #FFF;
+}
+
 .container {
     width: 83%;
     max-width: 1320px;
@@ -81,7 +85,6 @@ font-family: 'Merriweather', serif; */
 }
 
 .offer-img {
-    width: 50%;
     max-width: 800px;
     margin: 48px auto 0;
 }
@@ -92,6 +95,7 @@ font-family: 'Merriweather', serif; */
     background-image: url('resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
 }
 
 .vactor {
@@ -179,3 +183,9 @@ font-family: 'Merriweather', serif; */
 }
 
 /* best-offer */
+
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
