@@ -211,7 +211,7 @@ img{
     margin-bottom: 16px;
 }
 
-.offer-info h2 {
+.common-h2 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
@@ -297,3 +297,20 @@ img{
 }
 
 /* product */
+
+.product-text{
+    max-width: 900px;
+}
+
+.products-1, .products-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.products-1{
+    margin: 48px 0 24px;
+}
+
+/* newsletter */
