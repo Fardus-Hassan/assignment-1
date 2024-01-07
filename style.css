@@ -3,6 +3,8 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 
+/* common style end */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,10 +17,14 @@ font-family: 'Merriweather', serif; */
 }
 
 .per-sec {
-    margin: 60px 0;
+    margin-bottom: 120px;
 }
 
-/* common style end */
+/* banner */
+
+.banner{
+    margin-top: 50px;
+}
 
 .banner-container {
     background-image: url('resources/Banner\ Image.png');
@@ -30,7 +36,7 @@ font-family: 'Merriweather', serif; */
     font-family: 'Merriweather', serif;
 }
 
-.banner-text{
+.banner-text {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
     padding: 177px 250px;
@@ -48,5 +54,36 @@ font-family: 'Merriweather', serif; */
     line-height: 95px;
 }
 
-/* banner end */
+/* offer */
 
+.offer-text {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.offer-text h1 {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-img{
+    width: 50%;
+    max-width: 800px;
+    margin: 48px auto 0;
+}
+
+/* party */
