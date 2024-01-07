@@ -24,13 +24,14 @@ font-family: 'Merriweather', serif; */
     background-image: url('resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
-    padding: 177px 0;
     text-align: center;
     border-radius: 16px;
 }
 
-.banner-container{
+.banner-text{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    padding: 177px 250px;
 }
 
 .banner-text h3 {
@@ -50,3 +51,6 @@ font-family: 'Merriweather', serif; */
     font-weight: 900;
     line-height: 95px;
 }
+
+/* banner end */
+
