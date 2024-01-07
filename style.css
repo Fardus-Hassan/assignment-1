@@ -26,6 +26,8 @@ font-family: 'Merriweather', serif; */
     background-position: center;
     text-align: center;
     border-radius: 16px;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
 }
 
 .banner-text{
@@ -35,18 +37,12 @@ font-family: 'Merriweather', serif; */
 }
 
 .banner-text h3 {
-    color: #FFF;
-    text-align: center;
     font-size: 32px;
     font-weight: 400;
-    font-family: 'Merriweather', serif;
     margin-bottom: 16px;
 }
 
 .banner-text h1 {
-    font-family: 'Merriweather', serif;
-    color: #FFF;
-    text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
