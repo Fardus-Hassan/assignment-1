@@ -377,12 +377,12 @@ li{
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 0;
-    text-align: center;
 }
 
 .newsletter-text {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .newsletter-text img{
@@ -392,7 +392,7 @@ li{
 
 .newsletter form {
     margin-top: 48px;
-    width: 650px;
+    max-width: 650px;
     margin: 48px auto 0;
     display: flex;
 }
