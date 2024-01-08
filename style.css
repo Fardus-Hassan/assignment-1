@@ -303,6 +303,7 @@ li{
 
 .shopping{
     margin-top: 5px;
+    max-width: 100%;
 }
 
 .dic50 img{
@@ -329,18 +330,15 @@ li{
 .main-hover-icon{
     position: relative;
 }
-.hover-icon{
-
-}
 
 .hover-icon ul{
+    position: absolute;
+    top:0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    position: absolute;
-    top:0;
-    right: 0;
     width: 99%;
     height: 98%;
     background-color: rgba(255, 255, 255, 0.582);
@@ -361,11 +359,12 @@ li{
 }
 
 .hover-icon{
-    display: none;
+    opacity: 0;
+    transition:0.3s;
 }
 
 .main-hover-icon:hover .hover-icon{
-    display: block;
+    opacity: 1;
 }
 
 .products-1 {
