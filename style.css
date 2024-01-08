@@ -107,19 +107,19 @@ a{
     border-radius: 16px;
 }
 
-.vactor {
+.vector {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
+    gap: 40px;
 }
 
 .party-text {
     font-family: 'Inter', sans-serif;
     width: 700px;
-    padding: 126px 0 142px;
+    padding: 126px 0px 142px;
 }
 
 .party-text h1 {
@@ -294,10 +294,14 @@ a{
 
 .shop {
     position: relative;
+    
+}
+
+.shopping{
     margin-top: 5px;
 }
 
-.dic50 img {
+.dic50 img{
     position: absolute;
     top: 85px;
     right: 65%;
@@ -312,7 +316,7 @@ a{
 .products-1,
 .products-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 24px;
 }
@@ -323,20 +327,22 @@ a{
 
 /* newsletter */
 
-.newsletter {
-    text-align: center;
-}
-
 .news-container {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 0;
+    text-align: center;
 }
 
 .newsletter-text {
     width: 900px;
     margin: 0 auto;
 }
+
+.newsletter-text img{
+    margin-bottom: 45px;
+}
+
 
 .newsletter form {
     margin-top: 48px;
