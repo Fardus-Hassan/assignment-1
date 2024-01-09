@@ -3,7 +3,7 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 
-/* common style end */
+/* common style */
 
 * {
     margin: 0;
@@ -28,12 +28,12 @@ img {
     margin-bottom: 120px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #FFF;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -171,7 +171,6 @@ li{
     font-family: 'Inter', sans-serif;
 }
 
-
 .date-time-text h1 {
     color: #070211;
     font-size: 32px;
@@ -187,7 +186,7 @@ li{
 
 .date-time-text button {
     padding: 16px 32px;
-    border-radius:15px;
+    border-radius: 15px;
     background: #F00;
     color: #FFF;
     font-size: 20px;
@@ -298,15 +297,15 @@ li{
 
 .shop {
     position: relative;
-    
+
 }
 
-.shopping{
+.shopping {
     margin-top: 5px;
     max-width: 100%;
 }
 
-.dic50 img{
+.dic50 img {
     position: absolute;
     top: 85px;
     right: 65%;
@@ -327,13 +326,13 @@ li{
     border-radius: 16px;
 }
 
-.main-hover-icon{
+.main-hover-icon {
     position: relative;
 }
 
-.hover-icon ul{
+.hover-icon ul {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     display: flex;
     justify-content: center;
@@ -346,11 +345,12 @@ li{
     border: 2px solid #F00;
 }
 
-.hover-icon ul li a i{
-    font-size:30px;
+.hover-icon ul li a i {
+    font-size: 30px;
     color: #F00;
 }
-.hover-icon ul li a{
+
+.hover-icon ul li a {
     font-size: 30px;
     background-color: rgb(255, 255, 255);
     padding: 10px;
@@ -358,12 +358,12 @@ li{
     box-shadow: 0px 0px 20px 2px black;
 }
 
-.hover-icon{
+.hover-icon {
     opacity: 0;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
-.main-hover-icon:hover .hover-icon{
+.main-hover-icon:hover .hover-icon {
     opacity: 1;
 }
 
@@ -385,7 +385,7 @@ li{
     text-align: center;
 }
 
-.newsletter-text img{
+.newsletter-text img {
     margin-bottom: 45px;
 }
 
@@ -442,24 +442,24 @@ footer {
     line-height: 40px;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.contact-info{
+.contact-info {
     width: 375px;
 }
 
-.contact-info-2 span a{
-    display:flex;
-    justify-content:space-around;
+.contact-info-2 span a {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap:15px;
+    gap: 15px;
 }
 
-.social-icon ul{
+.social-icon ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -470,26 +470,26 @@ footer {
     border-right: 0;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }
 
-.social-icon ul li a img{
+.social-icon ul li a img {
     transition: 0.3s;
     border-radius: 50%;
 }
 
 /* extra effect */
 
-.hover:hover{
-   background-color: rgb(218, 1, 1);
-   border-radius:0;
+.hover:hover {
+    background-color: rgb(218, 1, 1);
+    border-radius: 0;
 }
 
-.party-button:hover{
+.party-button:hover {
     color: #F00;
 }
 
@@ -498,16 +498,16 @@ footer {
     transition: 0.2s;
 }
 
-.newsletter form input[type="email"]:hover{
-    background-color:rgba(255, 81, 0, 0.123);
+.newsletter form input[type="email"]:hover {
+    background-color: rgba(255, 81, 0, 0.123);
 }
 
-.newsletter form input[type="submit"]:hover{
-    background-color:rgba(218, 0, 0, 0.925);
+.newsletter form input[type="submit"]:hover {
+    background-color: rgba(218, 0, 0, 0.925);
     border-radius: 0px 5px 5px 0px;
 }
 
-.social-icon ul li a:hover img{
+.social-icon ul li a:hover img {
     box-shadow: 0px 0px 20px 5px #ffffff;
 }
 
